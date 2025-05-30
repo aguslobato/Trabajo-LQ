@@ -33,11 +33,7 @@ function toggleDropdown(e) {
       sidePanel.classList.remove("open");
       overlay.classList.remove("active");
     });
-
-
-    const toggle = document.getElementById("menuToggle");
-    const menu = document.getElementById("menu");
-
-    toggle.addEventListener("click", () => {
-      menu.classList.toggle("active");
-    });
+    function toggleMenu() {
+      const menu = document.getElementById("miMenu");
+      menu.classList.toggle("activo");
+    }
