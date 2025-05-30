@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https:/00/f0000000onts.googleapis.com">
+</head>
+<body>
+
+    <header class="header-desktop">
+       <div class="header-top">
+            <p>ENVIOS GRATIS A TODO EL PAIS EN COMPRAS SUPERIORES A $69.999</p>
+       </div>
+       <nav class="navbar">
+        <div class="container">
+            <a href=""><img src="assets/images/logo.jpg" class="logo" alt=""></a>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a class="link-brown" href="#" onclick="toggleDropdown(event)">PRODUCTOS<img class="arrow icon-small-nav" src="assets/images/arrow-header.png" alt=""></a>
+                    <div class="dropdown-menu">
+                        <div class="row content-submenu">
+                                <div class="content-icon col-12 col-lg-3">
+                                        <ul>
+                                            <li><h5>PRINCIPALES</h5></li>
+                                            <li><a href="">Docenas</a></li>
+                                            <li><a href="">Medias docenas</a></li>
+                                            <li><a href="">MINIS</a></li>
+                                            <li><a href="">Coleciones & Conitos</a></li>
+                                            <li><a href="">SIN TACC</a></li>
+                                        </ul>
+                                </div>
+                                <div class="content-icon col-12 col-lg-3">
+                                        <ul>
+                                            <li><h5>DULCES</h5></li>
+                                            <li><a href="">Frutas En Almibar</a></li>
+                                            <li><a href="">Mermeladas Tradicionales</a></li>
+                                            <li><a href="">Dulce De Leche</a></li>
+                                            <li><a href="">Miel</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="content-icon col-12 col-lg-3">
+                                        <ul>
+                                            <li><h5>DELICATESSEN</h5></li>
+                                            <li><a href="">Escabeches</a></li>
+                                            <li><a href="">Aceite & Aceitunas</a></li>
+                                        </ul>
+                                        <ul class="mt-4">
+                                            <li><h5>LICORES</h5></li>
+                                            <li><a href="">Licores</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="content-icon col-12 col-lg-3">
+                                        <ul>
+                                            <li><h5>PROMOCIONES</h5></li>
+                                            <li><a href="">Promociones!</a></li>
+                                        </ul>
+                                    </div>
+                            </div>
+                </div>
+            </li>
+            <li><a href="" class="link-brown">CAFETERIA</a></li>
+            <li><a href="" class="link-brown">EXPERIENCIA LA QUINTA</a></li>
+            <li><a href="" class="link-brown">LOCALES</a></li>
+            <li><a href="" class="link-brown">CONTACTO</a></li>
+            <li class="dropdown">
+                <a class="link-brown" href="#" onclick="toggleDropdown(event)">NUESTRAS MARCAS<img class="arrow icon-small-nav" src="assets/images/arrow-header.png" alt=""></a>
+                <div class="dropdown-menu">
+                    <div class="row content-submenu">
+                            <div class="content-icon col-12 col-lg-3">
+                                    <ul>
+                                        <li><h5>LA MONA</h5></li>
+                                    </ul>
+                            </div>
+                            <div class="content-icon col-12 col-lg-3">
+                                    <ul>
+                                        <li><h5>EL CORDOBES</h5></li>
+                                    </ul>
+                                </div>
+                                <div class="content-icon col-12 col-lg-3">
+                                    <ul>
+                                        <li><h5>TUCABON</h5></li>
+                                    </ul>
+                                </div>
+                                <div class="content-icon col-12 col-lg-3">
+                                    <ul>
+                                        <li><h5>COSQUIN ROCK</h5></li>
+                                    </ul>
+                                </div>
+                        </div>
+            </div>
+        </li>
+            </ul>   
+            <ul class="nav-links">
+                <li><a href=""><span class="icon-small-nav"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg></span></a></li>
+                <li><a href=""><span class="icon-small-nav"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg></span></a></li>
+                <li><button class="user-icon" id="openPanel"><span class="icon-small-nav"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 48-128 0 0-48zm-48 48l-64 0c-26.5 0-48 21.5-48 48L0 416c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-208c0-26.5-21.5-48-48-48l-64 0 0-48C336 50.1 285.9 0 224 0S112 50.1 112 112l0 48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/></svg></span></a></li></button>
+            </ul>         
+        </div>
+       </nav>
+    </header>
+
+    <header class="header-mobile">
+        <div class="header-top">
+            <p>ENVIOS GRATIS A TODO EL PAIS EN COMPRAS SUPERIORES A $69.999</p>
+        </div>
+        <nav>
+            <div class="container">
+                <div class="logo">MiTienda</div>
+                <button class="menu-toggle" id="menuToggle">&#9776;</button>                
+            </div>
+        </nav>
+
+        <div class="menu" id="menu">
+            <div class="container">
+                <a href="#">Inicio</a>
+                <a href="#">Productos</a>
+                <a href="#">Contacto</a>                
+            </div>
+        </div>
+    </header>
+
+
+<!-- Panel deslizante Derecha-->
+<div class="side-panel" id="sidePanel">
+    <button class="close-btn" id="closePanel">&times;</button>
+    <div class="bg-light-brown">
+        <div class="container">
+
+        </div>
+    </div>
+    <div class="bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 border-bottom mt-2 mb-2">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th class="pb-3 text-center" scope="col"></th>
+                            <th class="pb-3 text-center" scope="col">Producto</th>
+                            <th class="pb-3 text-center" scope="col">Precio</th>
+                            <th class="pb-3 text-center" scope="col">Cantidad</th>
+                            <th class="pb-3 text-center" scope="col">Total</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th class="pb-3 text-center" scope="row"><img class="img-product-cart" src="https://www.alfajoreslaquinta.com/323-cart_default/pavita-mediana-1000-grs.jpg" alt=""></th>
+                            <td class="pb-3">Pavita Mediana 1000Grs</td>
+                            <td class="pb-3 text-center">$19.000,00</td>
+                            <td class="pb-3 text-center">5</td>
+                            <td class="pb-3 text-center">$95.000,00</td>
+                          </tr>
+                          <tr>
+                            <th class="pb-3 text-center" scope="row"><img src="https://www.alfajoreslaquinta.com/462-cart_default/licor-grappa-con-ruda.jpg" alt="" class="img-product-cart"></th>
+                            <td class="pb-3">Licor Grappa con ruda</td>
+                            <td class="pb-3 text-center">$5.000,00</td>
+                            <td class="pb-3 text-center">1</td>
+                            <td class="pb-3 text-center">$5.000,00</td>
+                          </tr>
+                          <tr>
+                            <th class="pb-3 text-center" scope="row"><img src="https://www.alfajoreslaquinta.com/325-home_default/vizcacha-mediana-1000-grs.jpg" alt="" class="img-product-cart"></th>
+                            <td class="pb-3">Vizcacha Mediana 1000Grs</td>
+                            <td class="pb-3 text-center">$19.000,00</td>
+                            <td class="pb-3 text-center">2</td>
+                            <td class="pb-3 text-center">$38.000,00</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-12 mt-2 mb-2">
+                    <div class="d-flex justify-content-between">
+                        <h4>Subtotal</h4>
+                        <h4>$138.000</h4>
+                    </div>
+                    <a href="" class="link-bg-light-brown">Tramitar Pedido</a>
+                    <a href="" class="link-bg-grey">Carrito</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/a18a484923.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>
