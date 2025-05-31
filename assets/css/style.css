@@ -5,13 +5,13 @@
 }
 
 /* FUENTES */
-p, li, header a, .dropdown-menu a{
-  font-family: "Assistant", sans-serif;
-}
+
 h1, h2, h3, h4, h5, h6, a{
   font-family: "Source Serif 4", serif;
 }
-
+p, li, header a, .dropdown-menu a, footer li a{
+  font-family: "Assistant", sans-serif;
+}
 /* LINKS */
 .link-brown{
     color:#807451;
@@ -283,6 +283,7 @@ footer .content-icon-footer .link-white:hover svg, footer .content-icon-footer .
   border: 1px solid #bbab7d;
   transition: all 0.5s;
 }
+
 @media (min-width: 1320px){
      .header-desktop{
         display: block;
