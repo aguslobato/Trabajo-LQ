@@ -104,8 +104,10 @@ header .icon-small-nav svg:hover{
   transition: all 0.5s;
   fill: #494331;
 }
-.nav-links a {
-    text-decoration: none;
+.nav-links li a{
+  text-decoration: none;
+}
+.nav-links li {
     margin-right: 25px;
 }
 .dropdown-menu {
