@@ -112,12 +112,12 @@ header .icon-small-nav svg{
 .dropdown-menu.show {
     display: block;
     padding: 2em;
-	width: 1320px;
-	z-index: 8000;
-	position: absolute;
-    inset: 100px auto auto 250px;
-	margin: 0;
-	transform: translate3d(0px, 50px, 0px);
+	  width: 1320px;
+	  z-index: 8000;
+	  position: absolute;
+    inset: 170px auto auto 250px;
+	  margin: 0;
+	  transform: translate3d(0px, 50px, 0px);
     left: 50%;
     transform: translateX(-50%) translateY(50px);
 }
