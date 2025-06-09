@@ -314,3 +314,44 @@ footer .content-icon-footer .link-white:hover svg, footer .content-icon-footer .
       display: flex;
     }
 }
+
+    /* Fondo oscuro del modal */
+    #miModal {
+      display: none; /* Oculto por defecto */
+      position: fixed;
+      z-index: 999;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.934);
+    }
+
+    /* Contenido del modal */
+    .modal-contenido {
+      background-color: #00000000;
+      margin: 15% auto;
+      padding: 20px;
+      border-radius: 10px;
+      width: 50%;
+      position: relative;
+      text-align: center; 
+    }
+
+    /* Botón de cierre (X) */
+    .cerrar {
+      position: absolute;
+      top: 20px;
+      right: 15px;
+      color: #ffffff;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    input[type="text"] {
+      width: 80%;
+      padding: 10px;
+      font-size: 16px;
+    }

@@ -37,3 +37,12 @@ function toggleDropdown(e) {
       const menu = document.getElementById("miMenu");
       menu.classList.toggle("activo");
     }
+
+
+    function abrirModal() {
+      document.getElementById("miModal").style.display = "block";
+    }
+
+    function cerrarModal() {
+      document.getElementById("miModal").style.display = "none";
+    }
